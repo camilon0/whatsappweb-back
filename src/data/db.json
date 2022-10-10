@@ -12,5 +12,21 @@
       "phone": "3013534228",
       "id": 2
     }
+  ],
+  "messages": [
+    {
+      "idUser1": 1,
+      "idUser2": 2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    }
   ]
 }
