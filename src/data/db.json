@@ -2,21 +2,81 @@
   "users": [
     {
       "id": 1,
-      "name": "Camilo",
-      "password": "1234",
-      "phone": "3013534229"
+      "name": "Berto",
+      "password": "1",
+      "phone": "1"
     },
     {
-      "name": "Camilo",
-      "password": "1235",
-      "phone": "3013534228",
+      "name": "Lina Garcia",
+      "password": "1",
+      "phone": "1",
       "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Longas",
+      "password": "1",
+      "phone": "1"
+    },
+    {
+      "id": 4,
+      "name": "Whitney Stevenson",
+      "password": "1",
+      "phone": "1"
+    },
+    {
+      "id": 5,
+      "name": "Jenny Q",
+      "password": "1",
+      "phone": "1"
     }
   ],
   "messages": [
     {
       "idUser1": 1,
       "idUser2": 2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    },
+    {
+      "idUser1": 2,
+      "idUser2": 3,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    },
+    {
+      "idUser1": 3,
+      "idUser2": 4,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 5,
       "conversation": [
         {
           "sendBy": 1,
