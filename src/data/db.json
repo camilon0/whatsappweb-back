@@ -2,33 +2,38 @@
   "users": [
     {
       "id": 1,
-      "name": "Berto",
-      "password": "1",
-      "phone": "1"
-    },
-    {
-      "name": "Lina Garcia",
+      "name": "Maria",
       "password": "1",
       "phone": "1",
-      "id": 2
+      "img": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "name": "Carlos",
+      "password": "1",
+      "phone": "1",
+      "id": 2,
+      "img": "https://img.freepik.com/foto-gratis/retrato-joven-confiado-gafas_171337-4841.jpg?w=2000"
     },
     {
       "id": 3,
-      "name": "Longas",
+      "name": "Lucia",
       "password": "1",
-      "phone": "1"
+      "phone": "1",
+      "img": "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000"
     },
     {
       "id": 4,
-      "name": "Whitney Stevenson",
+      "name": "Carla",
       "password": "1",
-      "phone": "1"
+      "phone": "1",
+      "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     {
       "id": 5,
-      "name": "Jenny Q",
+      "name": "Sara",
       "password": "1",
-      "phone": "1"
+      "phone": "1",
+      "img": "https://www.aconsciousrethink.com/wp-content/uploads/2019/05/reserved-person-line.jpg"
     }
   ],
   "messages": [
