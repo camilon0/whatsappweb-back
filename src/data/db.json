@@ -1,53 +1,97 @@
 {
-  "vuelos": [
+  "users": [
     {
       "id": 1,
-      "destino": "monteria",
-      "origen": "medellin",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "5pm"
+      "name": "Maria",
+      "password": "1",
+      "phone": "1",
+      "img": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     {
+      "name": "Carlos",
+      "password": "2",
+      "phone": "2",
       "id": 2,
-      "destino": "monteria",
-      "origen": "medellin",
-      "asientos": "10",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "6pm"
+      "img": "https://img.freepik.com/foto-gratis/retrato-joven-confiado-gafas_171337-4841.jpg?w=2000"
     },
     {
       "id": 3,
-      "destino": "monteria",
-      "origen": "medellin",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "7pm"
+      "name": "Lucia",
+      "password": "3",
+      "phone": "3",
+      "img": "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000"
     },
     {
       "id": 4,
-      "destino": "medellin",
-      "origen": "monteria",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "7pm"
+      "name": "Carla",
+      "password": "4",
+      "phone": "4",
+      "img": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     {
       "id": 5,
-      "destino": "medellin",
-      "origen": "monteria",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "8pm"
+      "name": "Sara",
+      "password": "5",
+      "phone": "5",
+      "img": "https://www.aconsciousrethink.com/wp-content/uploads/2019/05/reserved-person-line.jpg"
+    }
+  ],
+  "messages": [
+    {
+      "idUser1": 1,
+      "idUser2": 2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
     },
     {
-      "id": 6,
-      "destino": "medellin",
-      "origen": "monteria",
-      "regresoDate": "2022-10-16",
-      "salidaDate": "2022-10-16",
-      "time": "9pm"
+      "idUser1": 2,
+      "idUser2": 3,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    },
+    {
+      "idUser1": 3,
+      "idUser2": 4,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 5,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "message": "hola"
+        },
+        {
+          "sendBy": 2,
+          "message": "hola"
+        }
+      ]
     }
   ]
 }
